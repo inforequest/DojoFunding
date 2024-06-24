@@ -386,6 +386,11 @@
         margin-top: 20px;
         margin-bottom: 25px;
     }
+
+    adit{
+    display:flex;
+        justify-content: center;
+    }
 .disclaimer{
        padding: 10px;
 
