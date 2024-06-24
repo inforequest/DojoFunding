@@ -157,7 +157,7 @@
         
     }
     
-    text-box {
+    .text-box {
         width: 80em;
         }
         
@@ -387,7 +387,7 @@
         margin-bottom: 25px;
     }
 
-    adit{
+    .adit{
     display:flex;
         justify-content: center;
     }
