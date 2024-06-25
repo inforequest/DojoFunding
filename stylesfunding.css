@@ -1003,7 +1003,20 @@ img {
     color: black;
     display: relative;
     }
-        
+        .disclaimer{
+    padding:10px;
+    width:auto;
+    margin-top: 5em;
+        margin-left: 0px;
+      margin-bottom:-30px;
+}
+    
+.disclaimer o5{
+  margin-left: 0px;
+    font-size: 0.7em;
+    text-align:left;
+    margin-top: 5em;
+}  
     @keyframes fadeIn {
         to {
             opacity: 1;
