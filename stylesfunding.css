@@ -1002,10 +1002,10 @@ img {
     }
     
     .modal.fade-out {
-        animation: fadeOut 0.5s forwards;
+        animation: fadeOut 0.3s forwards;
     }
     
     .modal-content.float-out {
-        animation: floatOut 0.5s forwards;
+        animation: floatOut 0.3s forwards;
     }
     }
