@@ -480,8 +480,8 @@ text-align: left;
     }
         
     /* Modal Styles */
-    .modal {
-        display: none;
+   .modal {
+        display: block;
         position: fixed;
         z-index: 1000;
         left: 0;
@@ -999,8 +999,8 @@ margin-top: 5em;
         text-align: left;
     }
     
-    .modal {
-        display: none;
+ .modal {
+        display: block;
         position: fixed;
         z-index: 1000;
         left: 0;
@@ -1025,7 +1025,6 @@ margin-top: 5em;
         opacity: 0;
         animation: floatIn 1s forwards;
     }
-
           .modal-content mh1 {
         font-size: 30px;
         text-align: center;
