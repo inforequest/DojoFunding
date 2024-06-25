@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // Wait for the animation to finish before hiding the modal
             setTimeout(function() {
                 popupModal.style.display = 'none';
-            }, 250); // Match the duration of the animation
+            }, 200); // Match the duration of the animation
         });
     } else {
         console.log('Popup Modal or continue button not found');
