@@ -913,7 +913,7 @@ img {
     }
     
     .modal {
-        display: block;
+        display: none;
         position: fixed;
         z-index: 1000;
         left: 0;
@@ -927,6 +927,7 @@ img {
     .modal-content {
         background-color: #fefefe;
         margin: 10% auto;
+        display:none;
         padding: 2em;
         border: 1px solid #888;
         width: 85%;
