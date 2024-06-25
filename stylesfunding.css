@@ -618,7 +618,7 @@ text-align: left;
     
     .header img {
         width: 12em;
-        height: auto;;
+        height: auto;
     }
     
     .header nav {
@@ -643,28 +643,8 @@ text-align: left;
     .header a:last-of-type {
         margin-right: 0;
     }
-        
-    .hamburger-menu {
-        display: none;
-        font-size: 3em;
-        cursor: pointer;
-    }
 
-    .header img {
-        width: 12em;
-        height: auto;
-    }
 
-    .hamburger-menu {
-        display: none;
-        font-size: 3em;
-        cursor: pointer;
-    }
-
-    .header img {
-        width: 12em;
-        height: auto;
-    }
 
     .header nav {
     display: none;
@@ -707,26 +687,6 @@ text-align: left;
         width: 34.5%;
     }
 
-    .hamburger-menu {
-        display: block;
-    }
-         .close-menu {
-        display: none;
-        z-index: 2000;
-        font-size:2.5em;
-    }
-
-
-    .show {
-        display: flex !important;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .blur {
-        filter: blur(5px);
-    }
-    
     .divider, .dividerwide {
         border-top: 0.05em solid grey;
         margin: 0;
