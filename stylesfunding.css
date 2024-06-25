@@ -608,7 +608,6 @@ text-align: left;
         }
     
     .header {
-      .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -619,9 +618,8 @@ text-align: left;
     
     .header img {
         width: 12em;
-        height: auto;
+        height: auto;;
     }
-    
     
     .header nav {
         display: flex;
@@ -918,53 +916,6 @@ img {
     width: -webkit-fill-available;
 }
         
-.out-box{
-    
-    display: flex;
-    align-content: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.out-box o1 {
-    font-size: 1.5em;
-    font-family: 'DM Sans Bold', sans-serif;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 25px;
-}
-
-.out-box o2 {
-    font-size: 1em;
-    font-family: 'DM Sans Bold', sans-serif;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 25px;
-}
-
-.out-box o3 {
-    font-size: 1emx;
-    font-family: 'DM Sans Bold', sans-serif;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 25px;
-}
-.disclaimer{
-padding:10px;
-width:auto;
-margin-top: 5em;
-    margin-left: 0px;
-  margin-bottom:-30px;
-}
-
-.disclaimer o5{
-margin-left: 0px;
-font-size: 0.7em;
-text-align:left;
-margin-top: 5em;
-}
     .text-tes-left {
         padding: 2em;
         width: 100%;
@@ -1001,7 +952,7 @@ margin-top: 5em;
         text-align: left;
     }
     
-   .modal {
+    .modal {
         display: block;
         position: fixed;
         z-index: 1000;
