@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var popupModalContent = document.querySelector('#popupModal .modal-content');
     var calendlyModalContent = document.querySelector('#calendlyModal .modal-content');
     var continueButton = document.getElementById('continueButton');
-    var closeModal = document.getElementById('closeModal');
+  var closeModal = document.getElementById('closeModal');
     var button = document.querySelector('.button');
     var button1 = document.querySelector('.button1');
 
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
         console.log('Popup Modal or continue button not found');
     }
 
-    if (calendlyModal && closeModal) {
+   if (calendlyModal && closeModal) {
         closeModal.addEventListener('click', function() {
             calendlyModalContent.classList.add('float-out');
             calendlyModal.classList.add('fade-out');
