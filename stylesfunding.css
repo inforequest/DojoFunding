@@ -608,6 +608,7 @@ text-align: left;
         }
     
     .header {
+      .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -618,8 +619,9 @@ text-align: left;
     
     .header img {
         width: 12em;
-        height: auto;;
+        height: auto;
     }
+    
     
     .header nav {
         display: flex;
@@ -999,7 +1001,7 @@ margin-top: 5em;
         text-align: left;
     }
     
- .modal {
+   .modal {
         display: block;
         position: fixed;
         z-index: 1000;
@@ -1025,6 +1027,7 @@ margin-top: 5em;
         opacity: 0;
         animation: floatIn 1s forwards;
     }
+
           .modal-content mh1 {
         font-size: 30px;
         text-align: center;
@@ -1043,11 +1046,12 @@ margin-top: 5em;
         margin-bottom:1em;
     }
 
-           .close-modal {
+         .close-modal {
            font-size: 3em;
     cursor: pointer;
     color: black;
-        }
+    display: relative;
+    }
         
     @keyframes fadeIn {
         to {
