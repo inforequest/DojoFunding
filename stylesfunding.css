@@ -20,7 +20,7 @@
         margin: 0;
         padding: 0;
     }
-.header {
+    .header {
         
         display: flex;
         align-items: center;
@@ -34,7 +34,6 @@
         height: 67px;
         margin-right: 50px;
     }
-    
     
     .header nav {
         display: flex;
@@ -72,8 +71,8 @@
     color: black;
     display: none !important;
 }
-    
-     .close-modal {
+
+   .close-modal {
     font-size: 4em;
     cursor: pointer;
     color: black;
@@ -82,12 +81,14 @@
     z-index: 1000;
     margin-right: -10em;
 }
+    
     .trustpilot {
         width: 300px;
         height: auto;
         margin-left: 30px;
         margin-top: 25px;
     }
+    
     .button-and-image {
         display: flex;
         align-items: center;
@@ -98,30 +99,30 @@
         justify-content: center;
 }
     
-    .button1 {
-        background-color: #FFB100;
-        color: black;
-        border: none;
-        border-radius: 25px;
-        padding: 1em 1.8em;
-        font-size: 1em;
-        cursor: pointer;
-        font-weight: bold;
-        line-height: 16px;
-        min-width: 118px;
-        width: auto;
-        display: inline-block;
-        text-align: center;
-        cursor: pointer;
-        outline: none;
-        white-space: nowrap;
-        text-overflow: ellipsis;
-        overflow: hidden;
-        text-decoration: none;
-        font-family: dm sans bold, sans-serif;
-        font-weight: 400;
-        vertical-align: top;
-    }
+.button1 {
+    background-color: #FFB100;
+    color: black;
+    border: none;
+    border-radius: 25px;
+    padding: 1em 1.8em;
+    font-size: 1em;
+    cursor: pointer;
+    font-weight: bold;
+    line-height: 16px;
+    min-width: 118px;
+    width: auto;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-decoration: none;
+    font-family: dm sans bold, sans-serif;
+    font-weight: 400;
+    vertical-align: top;
+}
     
     .divider {
         border-top: 0.5px solid grey;
@@ -157,6 +158,7 @@
         
     }
     
+      
     .text-box {
         width: 80em;
         }
@@ -179,12 +181,6 @@
             margin: 10px 0;
                 width: 350px;
             text-align: center;
-        }
-        .text-box mh1 {
-            font-size: 56px;
-            font-family: 'DM Sans Bold', sans-serif;
-            font-weight: bold;
-            text-align: left;
         }
     
     .text-box m {
@@ -347,66 +343,7 @@
     flex-direction: column;
     align-content: space-around;
     }
-    .out-box{
-        padding: 30px;
-        width: 520px;
-        display: flex;
-        align-content: center;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .out-box o1 {
-        font-size: 30px;
-        color:white;
-        font-family: 'DM Sans Bold', sans-serif;
-        font-weight: bold;
-        text-align: center;
-        margin-top: 20px;
-        margin-bottom: 25px;
-    }
-
-    .out-box o2 {
-        font-size: 20px;
-                color:white;
-
-        font-family: 'DM Sans Bold', sans-serif;
-        text-align: center;
-        margin-top: 20px;
-        margin-bottom: 25px;
-    }
-
-    .out-box o3 {
-        font-size: 20px;
-                color:white;
-
-        font-family: 'DM Sans Bold', sans-serif;
-        text-align: center;
-        margin-top: 20px;
-        margin-bottom: 25px;
-    }
-
-    .adit{
-    display:flex;
-        justify-content: center;
-    }
-.disclaimer{
-       padding: 10px;
-
-    width: 700px;
-    margin-top: 55px;
-    margin-bottom: -77px;
-    margin-right: 600px;
-}
     
-.disclaimer o5{
-font-size:10px;
-            color:black;
-
-font-family: 'DM Sans Bold', sans-serif;
-text-align: left;
-} 
     .text-tes-left {
       padding: 15px;
     width: 371px;
@@ -480,7 +417,7 @@ text-align: left;
     }
         
     /* Modal Styles */
-   .modal {
+    .modal {
         display: block;
         position: fixed;
         z-index: 1000;
@@ -618,7 +555,7 @@ text-align: left;
     
     .header img {
         width: 12em;
-        height: auto;
+        height: auto;;
     }
     
     .header nav {
@@ -643,8 +580,28 @@ text-align: left;
     .header a:last-of-type {
         margin-right: 0;
     }
+        
+    .hamburger-menu {
+        display: none;
+        font-size: 3em;
+        cursor: pointer;
+    }
 
+    .header img {
+        width: 12em;
+        height: auto;
+    }
 
+    .hamburger-menu {
+        display: none;
+        font-size: 3em;
+        cursor: pointer;
+    }
+
+    .header img {
+        width: 12em;
+        height: auto;
+    }
 
     .header nav {
     display: none;
@@ -687,6 +644,26 @@ text-align: left;
         width: 34.5%;
     }
 
+    .hamburger-menu {
+        display: block;
+    }
+         .close-menu {
+        display: none;
+        z-index: 2000;
+        font-size:2.5em;
+    }
+
+
+    .show {
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blur {
+        filter: blur(5px);
+    }
+    
     .divider, .dividerwide {
         border-top: 0.05em solid grey;
         margin: 0;
@@ -913,7 +890,7 @@ img {
     }
     
     .modal {
-        display: none;
+        display: block;
         position: fixed;
         z-index: 1000;
         left: 0;
@@ -927,7 +904,6 @@ img {
     .modal-content {
         background-color: #fefefe;
         margin: 10% auto;
-        display:none;
         padding: 2em;
         border: 1px solid #888;
         width: 85%;
@@ -964,20 +940,7 @@ img {
     color: black;
     display: relative;
     }
-        .disclaimer{
-    padding:10px;
-    width:auto;
-    margin-top: 5em;
-        margin-left: 0px;
-      margin-bottom:-30px;
-}
-    
-.disclaimer o5{
-  margin-left: 0px;
-    font-size: 0.7em;
-    text-align:left;
-    margin-top: 5em;
-}  
+        
     @keyframes fadeIn {
         to {
             opacity: 1;
@@ -1003,10 +966,10 @@ img {
     }
     
     .modal.fade-out {
-        animation: fadeOut 0.3s forwards;
+        animation: fadeOut 0.5s forwards;
     }
     
     .modal-content.float-out {
-        animation: floatOut 0.3s forwards;
+        animation: floatOut 0.5s forwards;
     }
     }
