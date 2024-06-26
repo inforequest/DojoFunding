@@ -403,6 +403,17 @@
     align-items: flex-end;
     }
     
+    .button3 {
+        background: #00695C;
+        border: 0px;
+        text-decoration: none;
+        padding: 10px 25px;
+        margin-bottom: 20px;
+        color: white;
+        border-radius: 10px;
+        display: inline-block;
+    }
+    
     .fund-image {
       width: 675px;
     height: auto;
@@ -897,7 +908,19 @@ img {
         margin-top: 0;
         text-align: left;
     }
-    
+
+    .button3 {
+        background: #00695C;
+        border: 0px;
+        font-size: 1em;
+        text-decoration: none;
+        padding: 0.75em 0.5em;
+        margin-bottom: 20px;
+        color: white;
+        border-radius: 10px;
+        display: inline-block;
+    }
+
     .modal {
         display: block;
         position: fixed;
