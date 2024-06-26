@@ -392,6 +392,14 @@
         margin-top: 20px;
     }
     
+    .small-box{
+    background-color: #262626;
+    padding: 20px;
+    margin-top: -0.5px;
+    position: relative;
+    height: 5em;
+    width: -webkit-fill-available;
+    }
     
     .fund-image {
       width: 675px;
