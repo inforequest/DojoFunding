@@ -73,13 +73,12 @@
 }
 
    .close-modal {
-    font-size: 4em;
+    font-size: 3em;
     cursor: pointer;
     color: black;
-    position: absolute;
-    margin-top: -0.5em;
     z-index: 1000;
-    margin-right: -10em;
+    position: relative;
+    margin-left: auto;
 }
     
     .trustpilot {
