@@ -908,7 +908,18 @@ img {
         margin-top: 0;
         text-align: left;
     }
-
+    
+    .small-box{
+        background-color: #262626;
+        display: flex;
+        padding: 20px;
+        position: relative;
+        height: 0em;
+        width: -webkit-fill-available;
+        justify-content: center;
+        align-items: flex-end;
+        }
+        
     .button3 {
         background: #00695C;
         border: 0px;
