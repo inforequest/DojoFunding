@@ -397,7 +397,7 @@
     display: flex;
     padding: 20px;
     position: relative;
-    height: 0em;
+    height: 2em;
     width: -webkit-fill-available;
     justify-content: center;
     align-items: flex-end;
@@ -914,7 +914,7 @@ img {
         display: flex;
         padding: 20px;
         position: relative;
-        height: 0em;
+        height: 2em;
         width: -webkit-fill-available;
         justify-content: center;
         align-items: flex-end;
